@@ -32,7 +32,6 @@ public class DiscordBot {
                     .addOption(OptionType.INTEGER, "operand1", "the first number", true)
                     .addOption(OptionType.INTEGER, "operand2", "the second number", true)
                     .queue();
-            guild.upsertCommand("embed", "Send an Embed.").queue();
         }
 
     }
