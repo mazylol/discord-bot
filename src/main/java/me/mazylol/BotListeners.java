@@ -15,7 +15,7 @@ public class BotListeners extends ListenerAdapter {
 
             if (messageSent.equals("UwU") || messageSent.equals("uwu")) {
 
-                event.getTextChannel().sendMessage("Kill yourself!").queue();
+                event.getGuildChannel().sendMessage("Kill yourself!").queue();
 
             }
         }
